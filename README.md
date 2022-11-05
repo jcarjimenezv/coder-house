@@ -11,7 +11,7 @@ Este es un repositorio creado con la finalidad de que ustedes como estudiantes p
 
 ## Clonar el repositorio
 
-- Tener instalado [GIT](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git) 
+- Tener instalado [GIT](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git) y [Visual Studio](https://code.visualstudio.com/download)
 - Por medio de la terminal o consola ubicarse en donde desea tener el repositorio
 - Utilizar el comando `git clone https://github.com/jcarjimenezv/coder-house.git && cd coder-house`
 - Ejecutar el comando `code .`
