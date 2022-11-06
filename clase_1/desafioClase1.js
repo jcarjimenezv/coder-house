@@ -29,4 +29,5 @@ console.log("")
 
 favTVShowsList.push("Stranger Things")
 console.log("favTVShowsList + Stranger Things: ", favTVShowsList)
+console.log("")
 
