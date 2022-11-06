@@ -10,6 +10,8 @@ const person = {
 console.log("Constante person: ", person)
 
 /*
+// Type Error
+Assignment to constant variable.
 person = {
     firstName: "Jose",
     lastName: "Avila",

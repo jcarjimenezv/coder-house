@@ -1,6 +1,6 @@
-//const i = 0
-// Assignment to constant variable.
-// i = 1
+/*const i = 0
+Assignment to constant variable.
+ i = 1*/ 
 
 // Variable declarada fuera de la funcion
 
