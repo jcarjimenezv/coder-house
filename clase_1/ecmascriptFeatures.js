@@ -7,9 +7,14 @@ console.log(firstName);
 firstName = "Pedro"
 console.log(firstName);
 
+function get(params) {
+    console.log('Hola soy:' + firstName);
+}
+get()
 // Arrow functions o funciones flecha
-const arrowFuntion = (firstName) => console.log('Hola soy:' + firstName);
-arrowFuntion(firstName)
+const arrowFunction = (firstName) => console.log('Hola soy:' + firstName);
+
+arrowFunction(firstName)
 
 // Class para creación de clases con constructores
 class Person {
@@ -24,10 +29,12 @@ newFunction(firstName); // En este caso toma el valor del parametro enviado a la
 // Array.find()
 
 const fruitsList = ["Naranja", "Mango", "Mora", "Manzana"]
-
 const fruit = fruitsList.find(fruit => fruit === "Mora")
 console.log("Fruta encontrada: "+ fruit)
 
 // Template strings `${}`
 const curso = 'Programación Lineal'
-console.log(`Hola mi nombre es ${firstName} y los acompañare en este curso de ${curso}`)
+console.log(`Hola mi nombre es ${firstName} 
+
+
+y los acompañare en este curso de ${curso}`)

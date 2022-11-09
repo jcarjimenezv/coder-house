@@ -28,6 +28,7 @@ foo2()
 function foo3() {
     if (true) {
         let a = 1 // Variable local pertenece al bloque if
+        console.log("a variable fuera del alcance: "+a)
     }
     console.log("a variable fuera del alcance: "+a)
 }

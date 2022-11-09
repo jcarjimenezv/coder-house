@@ -5,7 +5,7 @@ const firstName = "Juan"; // String
 const age = 34; // number
 const weight = 80.5; // float number
 const isMarried = true; // boleean
-const undefinedValue = undefined; // boleean
+const undefinedValue = undefined; //undefined
 const nullValue = null;
 
 console.log("typeof firstName: " + typeof firstName); // String
@@ -35,7 +35,7 @@ console.log(
   "Testing regExp no numbers: " + regExp.test("Hola no soy un numero")
 );
 console.log(" ");
-console.log("Testing regExp: only numbers" + regExp.test("0123456789"));
+console.log("Testing regExp: only numbers " + regExp.test("0123456789"));
 console.log(" ");
 const dummyError = new Error("Dummy Error"); // Permite crear cualquier tipo de error
 console.log("Imprimiendo la instancia completa de error: " + dummyError);
@@ -65,4 +65,5 @@ console.log("Hobbies: " + hobbies);
 console.log(" ");
 // Person { firstName: 'Juan', lastName: 'Jimenez', age: 34, weight: 80.5, isMarried: true, hobbies: [ 'Leer', 'Nadar', 'Escuchar Musica', 'Montar Bicicleta' ] }
 console.log("Person" + person); 
+console.log("Person", person); 
 console.log(" ");
