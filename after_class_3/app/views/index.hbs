@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/api/users" method="post" enctype="multipart/form-data">
+        <label for="myFile">Choose file</label>
+        <input type="file" name="myFile" id="myFile">
+        <button type="submit">Enviar</button>
+    </form>
+    {{#if print}}
+        <li>{{file.fieldname}}</li>
+        <li>{{file.originalname}}</li>
+        <li>{{file.encoding}}</li>
+        <li>{{file.mimetype}}</li>
+        <li>{{file.destination}}</li>
+        <li>{{file.filename}}</li>
+    {{/if}}
+
+    {{#if error}}
+        <p>{{error}}</p>
+    {{/if}}
+    
+
+</body>
+</html>
